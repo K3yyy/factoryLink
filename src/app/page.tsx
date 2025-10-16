@@ -15,6 +15,7 @@ export default function Page() {
                 <div>
                     <LinkCollection links={checkEmployeeLink} title="Check employee link" />
                 </div>
+
             </div>
         </main>
     )
