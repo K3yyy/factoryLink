@@ -55,4 +55,16 @@ export const checkEmployeeLink: Link[] = [
     }
 
 ]
+export const checkEmployeeGms: Link[] = [
+
+    {
+        title: "Employee GMS DL",
+        url: "http://172.22.228.224:3001",
+    },
+    {
+        title: "TLS Endline Scan DL",
+        url: "https://portalkh.dintsun.com/servlet/jform?file=portal.pkg,scaner.pkg,sc.pkg,QKPI.pkg,EPP.pkg,Development.pkg&file1=scaner.pkg&locale=en&init_func=ENDLINE%20SCAN%20-%20DL",
+    }
+
+]
 
