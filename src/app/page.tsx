@@ -7,20 +7,6 @@ import EmployeeLinkProtected from "@/components/EmployeeLinkProtected";
 
 export default function Page() {
 
-    const [password, setPassword] = useState("");
-    const [accessGranted, setAccessGranted] = useState(false);
-
-    const handleCheckPassword = () => {
-        if (password === "143") { // set your password
-            setAccessGranted(true);
-        } else {
-            alert("Wrong password!");
-        }
-    };
-    // filter only the link you want to protect
-    const employeeLink = checkEmployeeGms.filter(
-        (link) => link.title === "Employee GMS DL"
-    );
     return (
         <main>
             <AdminNavbar/>

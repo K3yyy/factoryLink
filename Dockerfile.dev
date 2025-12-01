@@ -2,16 +2,17 @@ FROM node:20-bullseye
 
 WORKDIR /src/app
 
-# Copy only package.json / lockfile
+# Copy package files
 COPY package*.json ./
 
-# Install Linux-compatible dependencies
-RUN npm ci
+# Install dependencies
+RUN npm install
 
-# Copy rest of project
+# Copy the rest of your app
 COPY . .
 
+# Expose dev port
 EXPOSE 3000
 
+# Start development server
 CMD ["npm", "run", "dev"]
-c

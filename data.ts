@@ -38,6 +38,10 @@ export const myLinks: Link[] = [
         title: "ចំនួនដេរចេញតាមម៉ោងប្រចាំថ្ងៃ",
         url: "http://172.26.0.13/ReportServer/?%2fKANBAN%2fKH_Phone_summary_report_TV_ALLDataBuilding_B&rs:Command=Render",
     },
+    {
+        title: "TV info system",
+        url: "http://172.26.0.18:8512/vs/tologin.vs",
+    },
 ];
 
 export const checkEmployeeLink: Link[] = [
@@ -62,9 +66,17 @@ export const checkEmployeeGms: Link[] = [
         url: "http://172.22.228.224:3001",
     },
     {
+        title: "GMS Assgin Employee Scan DL",
+        url: "https://portalkh.dintsun.com/servlet/jform?file=portal.pkg,scaner.pkg,sc.pkg,QKPI.pkg,EPP.pkg,Development.pkg&file1=scaner.pkg&locale=en&init_func=15.2.3%20GMS%20Assgin%20Employee%20-%20DL",
+    },
+    {
         title: "TLS Endline Scan DL",
         url: "https://portalkh.dintsun.com/servlet/jform?file=portal.pkg,scaner.pkg,sc.pkg,QKPI.pkg,EPP.pkg,Development.pkg&file1=scaner.pkg&locale=en&init_func=ENDLINE%20SCAN%20-%20DL",
-    }
+    },
+    {
+        title: "Print GMS",
+        url: "http://172.22.228.224:3001/printGMS",
+    },
 
 ]
 
