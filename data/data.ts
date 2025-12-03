@@ -87,10 +87,10 @@ export const companyLink: Link[] = [
         title: "Wiki",
         url: "https://wikivn.dintsun.com/",
     },
-    // {
-    //     title: "Wiki",
-    //     url: "https://wikivn.dintsun.com/",
-    // },
+    {
+        title: "Factory flow",
+        url: "http://172.22.228.224:3000/flow",
+    },
     // {
     //     title: "Wiki",
     //     url: "https://wikivn.dintsun.com/",
