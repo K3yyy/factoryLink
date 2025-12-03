@@ -1,7 +1,7 @@
 "use client";
 import { LinkCollection } from "@/components/link-collection"
-import {checkEmployeeGms, checkEmployeeLink, myLinks} from "../../data";
-import AdminNavbar from "@/components/AdminNavbar";
+import {checkEmployeeGms, checkEmployeeLink, companyLink, myLinks} from "../../data/data";
+import AdminNavbar from "@/components/factoryFlow/AdminNavbar";
 import {useState} from "react";
 import EmployeeLinkProtected from "@/components/EmployeeLinkProtected";
 
@@ -19,6 +19,9 @@ export default function Page() {
                 </div>
                 <div>
                     <EmployeeLinkProtected/>
+                </div>
+                <div>
+                    <LinkCollection links={companyLink} title="Company link" />
                 </div>
 
             </div>

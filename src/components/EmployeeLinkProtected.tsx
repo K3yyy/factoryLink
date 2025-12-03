@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { checkEmployeeGms } from "../../data";
+import { checkEmployeeGms } from "../../data/data";
 import {Link} from "@/components/link-collection";
 
 export default function EmployeeLinkProtected() {

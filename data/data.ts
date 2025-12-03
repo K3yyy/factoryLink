@@ -3,7 +3,7 @@ import {Link} from "@/components/link-collection";
 
 export const myLinks: Link[] = [
     {
-        title: "ចងប៊ុង KH_bd_TV",
+        title: "绑包 របាយការណ៍ចងប៊ុង/Bundling Report",
         url: "http://172.26.0.13/ReportServer/?%2fKANBAN%2fKH_bd_TV&rs:Command=Render",
     },
     {
@@ -19,20 +19,17 @@ export const myLinks: Link[] = [
         url: "http://172.26.0.13/ReportServer/?%2fKANBAN%2fKH_SM_OUT_TV&rs:Command=Render",
     },
     {
-        title: "KH_iron1_TV",
-        url: "http://172.26.0.13/ReportServer/?%2fKANBAN%2fKH_iron1_TV&rs:Command=Render",
+        title: "Daily Cutting Report",
+        url: "http://172.26.0.13/ReportServer/Pages/ReportViewer.aspx?%2fKANBAN%2fVPDAL0046_INQUIRY_CUT_STATUS_huy&rc:Parameters=false",
     },
     {
-        title: "KH_iron2_TV",
-        url: "http://172.26.0.13/ReportServer/?%2fKANBAN%2fKH_iron2_TV&rs:Command=Render",
+        title: "លិខិតបញ្ជូនអាវប៉ាក់ DL_EMB_IN",
+        url: " http://172.26.0.13/ReportServer/Pages/ReportViewer.aspx?%2fKANBAN%2f01_KH_EMB_report_Print&rs:Command=Render",
     },
+
     {
-        title: "KH_iron3_TV",
-        url: "http://172.26.0.13/ReportServer/Pages/ReportViewer.aspx?%2fKANBAN%2fKH_pushing_TV&rs:Command=Render",
-    },
-    {
-        title: "អ៊ុត fusing",
-        url: "http://172.26.0.13/ReportServer/Pages/ReportViewer.aspx?%2fKANBAN%2fKH_pushing_TV&rs:Command=Render",
+        title: "烫衬 របាយការណ៍អ៊ុតស្អិត/Fusing REPORT",
+        url: "http://172.26.0.13/ReportServer/Pages/ReportViewer.aspx?/KANBAN/KH_pushing_TV_new&amp;amp;amp;amp;amp;amp;amp;rs:Command=Render",
     },
     {
         title: "ចំនួនដេរចេញតាមម៉ោងប្រចាំថ្ងៃ",
@@ -78,5 +75,25 @@ export const checkEmployeeGms: Link[] = [
         url: "http://172.22.228.224:3001/printGMS",
     },
 
+
+
+{
+    title: "បញ្ជូនអាវប៉ាក់ Report",
+        url: " http://172.26.0.13/ReportServer/Pages/ReportViewer.aspx?%2fKANBAN%2f01_KH_EMB_report_Print&rs:Command=Render",
+},
+]
+export const companyLink: Link[] = [
+    {
+        title: "Wiki",
+        url: "https://wikivn.dintsun.com/",
+    },
+    // {
+    //     title: "Wiki",
+    //     url: "https://wikivn.dintsun.com/",
+    // },
+    // {
+    //     title: "Wiki",
+    //     url: "https://wikivn.dintsun.com/",
+    // },
 ]
 

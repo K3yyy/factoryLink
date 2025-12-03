@@ -12,7 +12,7 @@ const AdminNavbar: FC = () => {
 
                     {/* Logo Section */}
                     <div className="flex-shrink-0">
-                        <Link href="/" className="flex items-center gap-3">
+                        <Link href="/public" className="flex items-center gap-3">
                             <Image
                                 src="/Logo.jpg"
                                 alt="Dintsun Logo"
