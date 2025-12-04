@@ -44,7 +44,7 @@ export const fixedLabels = [
     {
         id: 7,
         x: 730,
-        y: 60,
+        y: 75,
         text: "EMB (090...)",
         href: "http://172.26.0.13/ReportServer/Pages/ReportViewer.aspx?/KANBAN/VPDAL0046_INQUIRY_CUT_STATUS_huy&rc:Parameters=false"
     },
