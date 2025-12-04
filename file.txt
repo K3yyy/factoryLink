@@ -1,0 +1,4 @@
+Link
+docker build -f Dockerfile.dev -t link-web .
+docker run -it -d -v C:/factoryLink/dinling-factory:/src/app -p 172.22.228.224:3000:3000 --name link link-web sh -c "npm install && npm run dev"
+docker run -it -d -v C:/factoryLink/dinling-factory:/src/app -p 172.22.228.224:3000:3000 --name link link-web
