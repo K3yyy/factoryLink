@@ -169,7 +169,6 @@ export default function AnnotationCanvas({ backgroundUrl }: AnnotationCanvasProp
                         >
                             <a
                                 href={label.href}
-                                target="_blank"
                                 className="bg-yellow-100 border-2 cursor-pointer hover:bg-yellow-300 border-yellow-400 rounded px-3 py-2 text-xs font-medium text-gray-800 shadow-md"
                             >
                                 {label.text}

@@ -1,22 +1,27 @@
 import {Link} from "@/components/link-collection";
 
 
+
 export const myLinks: Link[] = [
     {
-        title: "绑包 របាយការណ៍ចងប៊ុង/Bundling Report",
-        url: "http://172.26.0.13/ReportServer/?%2fKANBAN%2fKH_bd_TV&rs:Command=Render",
+        title: "绑包 របាយការណ៍ចងប៊ុង/Bundling",
+        url: "http://172.22.228.224/sqlConnection/pages/bundling.php",
     },
     {
-        title: "QC Endline",
-        url: "http://172.26.0.13/ReportServer/?%2fKANBAN%2fKH_Phone_summary_report_TV_DataBuildingB&rs:Command=Render",
-    },
-    {
-        title: "ចូល Supermarket",
-        url: "http://172.26.0.13/ReportServer/?%2fKANBAN%2fKH_SM_IN_TV&rs:Command=Render",
+        title: "ចូល Supermarket/SM_IN",
+        url: "http://172.22.228.224/sqlConnection/pages/sm_in.php",
     },
     {
         title: "ចេញ Supermarket",
-        url: "http://172.26.0.13/ReportServer/?%2fKANBAN%2fKH_SM_OUT_TV&rs:Command=Render",
+        url: "hhttp://172.22.228.224/sqlConnection/pages/sm_out.php",
+    },
+    {
+        title: "烫衬 របាយការណ៍អ៊ុតស្អិត/Fusing REPORT",
+        url: "http://172.22.228.224/sqlConnection/pages/fusing.php",
+    },
+    {
+        title: "Iron",
+        url: "http://172.22.228.224/sqlConnection/pages/iron1.php",
     },
     {
         title: "Daily Cutting Report",
@@ -26,19 +31,32 @@ export const myLinks: Link[] = [
         title: "លិខិតបញ្ជូនអាវប៉ាក់ DL_EMB_IN",
         url: " http://172.26.0.13/ReportServer/Pages/ReportViewer.aspx?%2fKANBAN%2f01_KH_EMB_report_Print&rs:Command=Render",
     },
-
     {
-        title: "烫衬 របាយការណ៍អ៊ុតស្អិត/Fusing REPORT",
-        url: "http://172.26.0.13/ReportServer/Pages/ReportViewer.aspx?/KANBAN/KH_pushing_TV_new&amp;amp;amp;amp;amp;amp;amp;rs:Command=Render",
+        title: "QC Endline",
+        url: "http://172.26.0.13/ReportServer/?%2fKANBAN%2fKH_Phone_summary_report_TV_DataBuildingB&rs:Command=Render",
     },
+
+
+
+
     {
         title: "ចំនួនដេរចេញតាមម៉ោងប្រចាំថ្ងៃ",
         url: "http://172.26.0.13/ReportServer/?%2fKANBAN%2fKH_Phone_summary_report_TV_ALLDataBuilding_B&rs:Command=Render",
     },
-    {
-        title: "TV info system",
-        url: "http://172.26.0.18:8512/vs/tologin.vs",
-    },
+    // {
+    //     title: "TV info system",
+    //     url: "http://172.26.0.18:8512/vs/tologin.vs",
+    // },
+
+
+    // {
+    //     title: "Iron",
+    //     url: "http://172.22.228.224/sqlConnection/pages/iron1.php",
+    // },
+    // {
+    //     title: "Iron",
+    //     url: "http://172.22.228.224/sqlConnection/pages/iron1.php",
+    // },
 ];
 
 export const checkEmployeeLink: Link[] = [
@@ -59,8 +77,8 @@ export const checkEmployeeLink: Link[] = [
 export const checkEmployeeGms: Link[] = [
 
     {
-        title: "Employee GMS DL",
-        url: "http://172.22.228.224:3001",
+        title: "Check Worker performace",
+        url: "http://172.22.228.224/sqlConnection/pages/checkPerformace.php",
     },
     {
         title: "GMS Assgin Employee Scan DL",
@@ -73,6 +91,10 @@ export const checkEmployeeGms: Link[] = [
     {
         title: "Print GMS",
         url: "http://172.22.228.224:3001/printGMS",
+    },
+    {
+        title: "ALL GMS report",
+        url: "http://172.22.228.224/sqlConnection/pages/report.php",
     },
 
 
@@ -91,9 +113,48 @@ export const companyLink: Link[] = [
         title: "Factory flow",
         url: "http://172.22.228.224:3000/flow",
     },
+    {
+        title: "HR card-scan",
+        url: "https://adm.dintsun.com/servlet/jform?file=adm.pkg,manager.pkg&locale=en&init_func=Function1",
+    },
+]
+export const systemLink: Link[] = [
+    {
+        title: "cutting-system",
+        url: "http://172.22.228.224:3002",
+    },
+    {
+        title: "Employee GMS DL",
+        url: "http://172.22.228.224:3001",
+    },
+    {
+        title: "Dashboard system",
+        url: "http://172.22.228.224/sqlConnection/src/dashboard.php",
+    },
+
     // {
-    //     title: "Wiki",
-    //     url: "https://wikivn.dintsun.com/",
+    //     title: "Dashboard system",
+    //     url: "http://172.22.228.224/sqlConnection/src/dashboard.php",
+    // },
+]
+
+export const scanCard: Link[] = [
+    {
+        title: "DL_HA01",
+        url: "https://portalkh.dintsun.com/servlet/jform?file=sewing.pkg&em_step=1_4&init_func=Sewing-DL&uid=sewing&pwd=sewing&f_SewingLine=DL_HA01&locale=kh",
+    },
+
+    {
+        title: "DL_B01",
+        url: "https://portalkh.dintsun.com/servlet/jform?file=sewing.pkg&em_step=1_4&init_func=Sewing-DL&uid=sewing&pwd=sewing&f_SewingLine=DL_B01&locale=kh",
+    },
+    // {
+    //     title: "ALL GMS report",
+    //     url: "http://172.22.228.224/sqlConnection/pages/report.php",
+    // },
+    // {
+    //     title: "ALL GMS report",
+    //     url: "http://172.22.228.224/sqlConnection/pages/report.php",
     // },
 ]
 

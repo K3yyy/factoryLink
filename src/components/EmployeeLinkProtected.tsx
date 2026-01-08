@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { checkEmployeeGms } from "../../data/data";
+import { systemLink} from "../../data/data";
 import {Link} from "@/components/link-collection";
 
 export default function EmployeeLinkProtected() {
@@ -27,11 +27,11 @@ export default function EmployeeLinkProtected() {
 
     return (
         <div className="max-w-7xl mx-auto p-5 sm:p-6">
-            <h1 className="text-2xl sm:text-3xl font-bold mb-6">Employee link GMS</h1>
+            <h1 className="text-2xl sm:text-3xl font-bold mb-6">Use system</h1>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
-                {checkEmployeeGms.map((link: Link, index: number) =>
-                    link.title === "Employee GMS DL" ? (
+                {systemLink.map((link: Link, index: number) =>
+                    link.title === "Employee GMS DL" || link.title === "cutting-system"  ? (
                         <div
                             key={index}
                             onClick={() => handleLinkClick(link.url)}
