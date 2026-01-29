@@ -6,7 +6,7 @@ import {
     checkEmployeeLink,
     companyLink,
     myLinks,
-    scanCard,
+    scanCard, scanQC,
 } from "../../data/data";
 import EmployeeLinkProtected from "@/components/EmployeeLinkProtected";
 import CollapsibleSection from "@/components/CollapsibleSection";
@@ -37,6 +37,13 @@ export default function Page() {
 
                 <CollapsibleSection title="Scan Card">
                     <LinkCollection links={scanCard} />
+                </CollapsibleSection>
+                <CollapsibleSection title="Scan QC">
+                    <LinkCollection links={scanQC} />
+                    <pre>
+                Dinling.endline | o4KUvgclDx2j^V       phat.suo | Ps@2025@
+                </pre>
+
                 </CollapsibleSection>
             </div>
         </main>

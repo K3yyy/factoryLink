@@ -54,8 +54,8 @@ export const myLinks: Link[] = [
     //     url: "http://172.22.228.224/sqlConnection/pages/iron1.php",
     // },
     // {
-    //     title: "Iron",
-    //     url: "http://172.22.228.224/sqlConnection/pages/iron1.php",
+    //     title: "Report comparison",
+    //     url: "http://172.22.228.224/sqlConnection/style/testReport.php",
     // },
 ];
 
@@ -71,7 +71,11 @@ export const checkEmployeeLink: Link[] = [
     {
         title: "Daily production report",
         url: "http://172.26.0.18:8512/vs/files/174917561007267/see.html",
-    }
+    },
+    {
+        title: "Check employee scan card",
+        url: "https://ssrsf.dintsun.com/ReportServer/Pages/ReportViewer.aspx?%2fTLS2.0%2fVPDAL0032b_CHECKIN_DETAIL&rs:Command=Render",
+    },
 
 ]
 export const checkEmployeeGms: Link[] = [
@@ -96,7 +100,10 @@ export const checkEmployeeGms: Link[] = [
         title: "ALL GMS report",
         url: "http://172.22.228.224/sqlConnection/pages/report.php",
     },
-
+{
+        title: "Report comparison",
+        url: "http://172.22.228.224/sqlConnection/pages/gmsComparison.php",
+    },
 
 
 {
@@ -125,16 +132,24 @@ export const systemLink: Link[] = [
     },
     {
         title: "Employee GMS DL",
-        url: "http://172.22.228.224:3001",
+        url: "http://172.22.228.224:8000/employees",
     },
     {
         title: "Dashboard system",
         url: "http://172.22.228.224/sqlConnection/src/dashboard.php",
     },
 
+    {
+        title: "Comparison Reports",
+        url: "http://172.22.228.224:8000/reports/compare-progress",
+    },
+    {
+        title: "viewer log ReportGMS",
+        url: "http://172.22.228.224/sqlConnection/pages/log_viewer.php",
+    },
     // {
-    //     title: "Dashboard system",
-    //     url: "http://172.22.228.224/sqlConnection/src/dashboard.php",
+    //     title: "Endline scan DL",
+    //     url: http://172.22.228.224/sqlConnection/pages/log_viewer.php",
     // },
 ]
 
@@ -149,11 +164,23 @@ export const scanCard: Link[] = [
         url: "https://portalkh.dintsun.com/servlet/jform?file=sewing.pkg&em_step=1_4&init_func=Sewing-DL&uid=sewing&pwd=sewing&f_SewingLine=DL_B01&locale=kh",
     },
     // {
-    //     title: "ALL GMS report",
-    //     url: "http://172.22.228.224/sqlConnection/pages/report.php",
+    //     title: "Endline scan DL",
+    //     url: http://172.22.228.224/sqlConnection/pages/log_viewer.php",
     // },
     // {
     //     title: "ALL GMS report",
+    //     url: "http://172.22.228.224/sqlConnection/pages/report.php",
+    // },
+]
+
+export const scanQC: Link[] = [
+
+    {
+        title: "Endline scan DL",
+        url: "https://portalkh.dintsun.com/",
+    },
+    // {
+    //     title: "Dinling.endline | o4KUvgclDx2j^V",
     //     url: "http://172.22.228.224/sqlConnection/pages/report.php",
     // },
 ]

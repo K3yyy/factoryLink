@@ -18,7 +18,7 @@ export const fixedLabels = [
         x: 500,
         y: 300,
         text: "Bundle (030)",
-        href: "http://172.26.0.13/ReportServer/?%2fKANBAN%2fKH_SM_Bundling_TV_huy&rs:Command=Render"
+        href: "http://172.22.228.224/sqlConnection/pages/bundling.php"
     },
     {
         id: 4,
@@ -53,14 +53,14 @@ export const fixedLabels = [
         x: 950,
         y: 320,
         text: "SM in (001)",
-        href: "http://172.26.0.13/ReportServer/?%2fKANBAN%2fKH_SM_IN_TV&rs:Command=Render"
+        href: "http://172.22.228.224/sqlConnection/pages/sm_in.php"
     },
     {
         id: 9,
         x: 1100,
         y: 320,
         text: "SM out (002)",
-        href: "http://172.26.0.13/ReportServer/?%2fKANBAN%2fKH_SM_OUT_TV&rs:Command=Render"
+        href: "http://172.22.228.224/sqlConnection/pages/sm_out.php"
     },
     {
         id: 10,
@@ -81,7 +81,7 @@ export const fixedLabels = [
         x: 200,
         y: 560,
         text: "IRON",
-        href: "http://172.26.0.13/ReportServer/?%2fKANBAN%2fKH_iron1_TV&rs:Command=Render"
+        href: "http://172.22.228.224/sqlConnection/pages/iron1.php"
     },
     {
         id: 13,
@@ -109,6 +109,6 @@ export const fixedLabels = [
         x: 820,
         y: 630,
         text: "Ship out",
-        href: ""
+        href: "#"
     }
 ];
