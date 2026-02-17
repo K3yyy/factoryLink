@@ -33,7 +33,7 @@ export const myLinks: Link[] = [
     },
     {
         title: "QC Endline",
-        url: "http://172.26.0.13/ReportServer/?%2fKANBAN%2fKH_Phone_summary_report_TV_DataBuildingB&rs:Command=Render",
+        url: "http://172.22.228.224/sqlConnection/mainCode/qc.php",
     },
 
 
@@ -105,11 +105,14 @@ export const checkEmployeeGms: Link[] = [
         url: "http://172.22.228.224/sqlConnection/pages/gmsComparison.php",
     },
 
-
 {
     title: "បញ្ជូនអាវប៉ាក់ Report",
         url: " http://172.26.0.13/ReportServer/Pages/ReportViewer.aspx?%2fKANBAN%2f01_KH_EMB_report_Print&rs:Command=Render",
 },
+    {
+        title: "cutting-Report",
+        url: "http://172.22.228.224/sqlConnection/pages/cutting.php",
+    },
 ]
 export const companyLink: Link[] = [
     {
