@@ -113,6 +113,14 @@ export const checkEmployeeGms: Link[] = [
         title: "cutting-Report",
         url: "http://172.22.228.224/sqlConnection/pages/cutting.php",
     },
+    {
+        title: "Endline output 车缝产出",
+        url: "http://172.22.228.224/sqlConnection/pages/tlsEndline.php",
+    },
+    {
+        title: "Output SM & endline & packing report",
+        url: "http://172.22.228.224/sqlConnection/test/compareGms.php",
+    },
 ]
 export const companyLink: Link[] = [
     {
@@ -151,8 +159,8 @@ export const systemLink: Link[] = [
         url: "http://172.22.228.224/sqlConnection/pages/log_viewer.php",
     },
     // {
-    //     title: "Endline scan DL",
-    //     url: http://172.22.228.224/sqlConnection/pages/log_viewer.php",
+    //     title: "Endline output 车缝产出",
+    //     url: "http://172.22.228.224/sqlConnection/pages/tlsEndline.php",
     // },
 ]
 
@@ -167,8 +175,8 @@ export const scanCard: Link[] = [
         url: "https://portalkh.dintsun.com/servlet/jform?file=sewing.pkg&em_step=1_4&init_func=Sewing-DL&uid=sewing&pwd=sewing&f_SewingLine=DL_B01&locale=kh",
     },
     // {
-    //     title: "Endline scan DL",
-    //     url: http://172.22.228.224/sqlConnection/pages/log_viewer.php",
+    //     title: "Output SM & endline & packing report",
+    //     url: "http://172.22.228.224/sqlConnection/test/compareGms.php",
     // },
     // {
     //     title: "ALL GMS report",
@@ -182,9 +190,9 @@ export const scanQC: Link[] = [
         title: "Endline scan DL",
         url: "https://portalkh.dintsun.com/",
     },
-    // {
-    //     title: "Dinling.endline | o4KUvgclDx2j^V",
-    //     url: "http://172.22.228.224/sqlConnection/pages/report.php",
-    // },
+    {
+        title: "PPA Scan Report + Defects",
+        url: "http://172.22.228.224/sqlConnection/pages/ppaDefected.php",
+    },
 ]
 
