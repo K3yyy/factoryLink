@@ -13,7 +13,7 @@ export const myLinks: Link[] = [
     },
     {
         title: "ចេញ Supermarket",
-        url: "hhttp://172.22.228.224/sqlConnection/pages/sm_out.php",
+        url: "http://172.22.228.224/sqlConnection/pages/sm_out.php",
     },
     {
         title: "烫衬 របាយការណ៍អ៊ុតស្អិត/Fusing REPORT",
@@ -43,20 +43,17 @@ export const myLinks: Link[] = [
         title: "ចំនួនដេរចេញតាមម៉ោងប្រចាំថ្ងៃ",
         url: "http://172.26.0.13/ReportServer/?%2fKANBAN%2fKH_Phone_summary_report_TV_ALLDataBuilding_B&rs:Command=Render",
     },
-    // {
-    //     title: "TV info system",
-    //     url: "http://172.26.0.18:8512/vs/tologin.vs",
-    // },
+    {
+        title: "Scanpack TV",
+        url: "http://172.22.228.224/scanPack/tv.php",
+    },
 
 
     // {
     //     title: "Iron",
     //     url: "http://172.22.228.224/sqlConnection/pages/iron1.php",
     // },
-    // {
-    //     title: "Report comparison",
-    //     url: "http://172.22.228.224/sqlConnection/style/testReport.php",
-    // },
+
 ];
 
 export const checkEmployeeLink: Link[] = [
@@ -105,10 +102,10 @@ export const checkEmployeeGms: Link[] = [
         url: "http://172.22.228.224/sqlConnection/pages/gmsComparison.php",
     },
 
-{
-    title: "បញ្ជូនអាវប៉ាក់ Report",
-        url: " http://172.26.0.13/ReportServer/Pages/ReportViewer.aspx?%2fKANBAN%2f01_KH_EMB_report_Print&rs:Command=Render",
-},
+    {
+        title: "បញ្ជូនអាវប៉ាក់ Report",
+            url: " http://172.26.0.13/ReportServer/Pages/ReportViewer.aspx?%2fKANBAN%2f01_KH_EMB_report_Print&rs:Command=Render",
+    },
     {
         title: "cutting-Report",
         url: "http://172.22.228.224/sqlConnection/pages/cutting.php",
@@ -120,6 +117,10 @@ export const checkEmployeeGms: Link[] = [
     {
         title: "Output SM & endline & packing report",
         url: "http://172.22.228.224/sqlConnection/test/compareGms.php",
+    },
+    {
+        title: "Scanpack report",
+        url: "http://172.22.228.224/scanPack/report.php",
     },
 ]
 export const companyLink: Link[] = [
@@ -158,10 +159,14 @@ export const systemLink: Link[] = [
         title: "viewer log ReportGMS",
         url: "http://172.22.228.224/sqlConnection/pages/log_viewer.php",
     },
-    // {
-    //     title: "Endline output 车缝产出",
-    //     url: "http://172.22.228.224/sqlConnection/pages/tlsEndline.php",
-    // },
+    {
+        title: "Scanpack",
+        url: "http://172.22.228.224/scanPack/login.php",
+    },
+    {
+        title: " ALL Endline output",
+        url: "http://172.22.228.224/scanPack/testReportTLS.php",
+    },
 ]
 
 export const scanCard: Link[] = [
