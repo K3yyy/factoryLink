@@ -49,9 +49,14 @@ export const myLinks: Link[] = [
     },
 
 
+
     // {
-    //     title: "Iron",
-    //     url: "http://172.22.228.224/sqlConnection/pages/iron1.php",
+    //     title: "Check PO",
+    //     url: "http://172.22.228.224/sqlConnection/test/po.php",
+    // },
+    // {
+    //     title: "Check PO",
+    //     url: "http://172.22.228.224/sqlConnection/test/po.php",
     // },
 
 ];
@@ -122,6 +127,28 @@ export const checkEmployeeGms: Link[] = [
         title: "Scanpack report",
         url: "http://172.22.228.224/scanPack/report.php",
     },
+
+    {
+        title: "Check PO",
+        url: "http://172.22.228.224/sqlConnection/test/po.php",
+    },
+
+    {
+        title: "New cutting report",
+        url: "http://172.22.228.224/sqlConnection/test/cutting.php",
+    },{
+
+        title: "New cutting report V2",
+        url: "http://172.22.228.224/sqlConnection/test/cutting1.php",
+    },
+    {
+        title: "sewing-sm_out target ",
+        url: "http://172.22.228.224/sqlConnection/pages/sm_sewing.php",
+    },
+    {
+        title: "Iron report",
+        url: "http://172.22.228.224/sqlConnection/pages/iron.php",
+    },
 ]
 export const companyLink: Link[] = [
     {
@@ -161,11 +188,15 @@ export const systemLink: Link[] = [
     },
     {
         title: "Scanpack",
-        url: "http://172.22.228.224/scanPack/login.php",
+        url: "http://172.22.228.224/scanPack/test/view_pieces.php",
     },
     {
         title: " ALL Endline output",
         url: "http://172.22.228.224/scanPack/testReportTLS.php",
+    },
+    {
+        title: "HR print card",
+        url: "http://172.22.228.224/scanHR/test/list.php",
     },
 ]
 
@@ -184,8 +215,8 @@ export const scanCard: Link[] = [
     //     url: "http://172.22.228.224/sqlConnection/test/compareGms.php",
     // },
     // {
-    //     title: "ALL GMS report",
-    //     url: "http://172.22.228.224/sqlConnection/pages/report.php",
+    //     title: "Iron report",
+    //     url: "http://172.22.228.224/sqlConnection/pages/iron.php",
     // },
 ]
 

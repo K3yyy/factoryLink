@@ -31,7 +31,7 @@ export default function EmployeeLinkProtected() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
                 {systemLink.map((link: Link, index: number) =>
-                    link.title === "Employee GMS DL" || link.title === "cutting-system"  ? (
+                    link.title === "Employee GMS DL" || link.title === "cutting-system" || link.title === "HR print card" ? (
                         <div
                             key={index}
                             onClick={() => handleLinkClick(link.url)}
