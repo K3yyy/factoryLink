@@ -40,10 +40,12 @@ export default function Page() {
                 </CollapsibleSection>
                 <CollapsibleSection title="Scan QC">
                     <LinkCollection links={scanQC} />
-                    <pre>
-                Dinling.endline | o4KUvgclDx2j^V       phat.suo | Ps@2025@
-                </pre>
 
+                    <pre>
+    Dinling.endline | o4KUvgclDx2j^V {" "}
+                        phat.suo |
+    <span className="blur-sm select-none">Ps@2025@</span>
+  </pre>
                 </CollapsibleSection>
             </div>
         </main>

@@ -136,10 +136,11 @@ export const checkEmployeeGms: Link[] = [
     {
         title: "New cutting report",
         url: "http://172.22.228.224/sqlConnection/test/cutting.php",
-    },{
+    },
+    {
 
-        title: "New cutting report V2",
-        url: "http://172.22.228.224/sqlConnection/test/cutting1.php",
+        title: "PPA QC",
+        url: "http://172.22.228.224/sqlConnection/pages/ppaDefected.php",
     },
     {
         title: "sewing-sm_out target ",
@@ -148,6 +149,10 @@ export const checkEmployeeGms: Link[] = [
     {
         title: "Iron report",
         url: "http://172.22.228.224/sqlConnection/pages/iron.php",
+    },
+    {
+        title: "GMS Production Report",
+        url: "http://172.22.228.224/sqlConnection/pages/inquiryBundle.php",
     },
 ]
 export const companyLink: Link[] = [
@@ -211,8 +216,8 @@ export const scanCard: Link[] = [
         url: "https://portalkh.dintsun.com/servlet/jform?file=sewing.pkg&em_step=1_4&init_func=Sewing-DL&uid=sewing&pwd=sewing&f_SewingLine=DL_B01&locale=kh",
     },
     // {
-    //     title: "Output SM & endline & packing report",
-    //     url: "http://172.22.228.224/sqlConnection/test/compareGms.php",
+    //     title: "GMS Production Report",
+    //     url: "http://172.22.228.224/sqlConnection/pages/inquiryBundle.php",
     // },
     // {
     //     title: "Iron report",
