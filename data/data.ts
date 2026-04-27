@@ -154,6 +154,10 @@ export const checkEmployeeGms: Link[] = [
         title: "GMS Production Report",
         url: "http://172.22.228.224/sqlConnection/pages/inquiryBundle.php",
     },
+    {
+        title: "Production tracking",
+        url: "http://172.22.228.224/sqlConnection/pages/tracking.php",
+    },
 ]
 export const companyLink: Link[] = [
     {
